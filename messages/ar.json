@@ -19,5 +19,6 @@
   "store/minicart.checkout-failure": "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
   "store/minicart.go-to-checkout": "الذهاب إلى الدفع",
   "store/minicart.empty-state": "عربتك فارغة.",
-  "store/minicart.title": "العربة"
+  "store/minicart.title": "العربة",
+  "store/minicart.open-button-label": "فتح عربة التسوق المصغرة"
 }

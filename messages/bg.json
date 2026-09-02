@@ -19,5 +19,6 @@
   "store/minicart.checkout-failure": "Нещо се обърка, моля, опитайте отново.",
   "store/minicart.go-to-checkout": "Преминаване към финализиране",
   "store/minicart.empty-state": "Вашата количка е празна.",
-  "store/minicart.title": "Количка"
+  "store/minicart.title": "Количка",
+  "store/minicart.open-button-label": "Отвори миниколичката"
 }
