@@ -19,5 +19,6 @@
   "store/minicart.checkout-failure": "Hiba történt. Próbálja újra.",
   "store/minicart.go-to-checkout": "Ugrás a pénztárhoz",
   "store/minicart.empty-state": "A kosár üres.",
-  "store/minicart.title": "Kosár"
+  "store/minicart.title": "Kosár",
+  "store/minicart.open-button-label": "Minikosár megnyitása"
 }

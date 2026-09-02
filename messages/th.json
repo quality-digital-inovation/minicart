@@ -19,5 +19,6 @@
   "store/minicart.checkout-failure": "มีบางอย่างผิดพลาด กรุณาลองอีกครั้ง",
   "store/minicart.go-to-checkout": "ไปที่หน้าชำระเงิน",
   "store/minicart.empty-state": "ไม่มีสินค้าในรถเข็นของคุณ",
-  "store/minicart.title": "รถเข็น"
+  "store/minicart.title": "รถเข็น",
+  "store/minicart.open-button-label": "เปิดมินิคาร์ท"
 }
