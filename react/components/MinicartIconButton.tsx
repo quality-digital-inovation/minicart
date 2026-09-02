@@ -1,5 +1,4 @@
 import React from 'react'
-import { ButtonWithIcon } from 'vtex.styleguide'
 import { useOrderForm } from 'vtex.order-manager/OrderForm'
 import { useCheckoutURL } from 'vtex.checkout-resources/Utils'
 
@@ -97,28 +96,29 @@ const MinicartIconButton: React.FC<Props> = props => {
     quantityDisplay === 'always'
 
   return (
-    <ButtonWithIcon
-      icon={
-        <span className={`${handles.minicartIconContainer} gray relative`}>
-          <Icon />
-          {showQuantityBadge && (
-            <span
-              style={{ userSelect: 'none' }}
-              className={`${handles.minicartQuantityBadge} ${styles.minicartQuantityBadgeDefault} c-on-emphasis absolute t-mini bg-emphasis br4 w1 h1 pa1 flex justify-center items-center lh-solid`}
-            >
-              {itemQuantity}
-            </span>
-          )}
-        </span>
-      }
-      variation="tertiary"
+    <button
+      type="button"
+      aria-label="Abrir minicarrinho"
+      className="bn bg-transparent pa0 pointer"
       onMouseEnter={
         openBehavior === 'hover'
           ? () => dispatch({ type: 'OPEN_MINICART' })
           : undefined
       }
       onClick={handleClick}
-    />
+    >
+      <span className={`${handles.minicartIconContainer} gray relative`}>
+        <Icon />
+        {showQuantityBadge && (
+          <span
+            style={{ userSelect: 'none' }}
+            className={`${handles.minicartQuantityBadge} ${styles.minicartQuantityBadgeDefault} c-on-emphasis absolute t-mini bg-emphasis br4 w1 h1 pa1 flex justify-center items-center lh-solid`}
+          >
+            {itemQuantity}
+          </span>
+        )}
+      </span>
+    </button>
   )
 }
 
