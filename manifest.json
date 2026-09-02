@@ -1,8 +1,8 @@
 {
-  "vendor": "vtex",
-  "name": "minicart",
+  "vendor": "acctglobal",
+  "name": "poc-traction-minicart",
   "title": "Mini Cart",
-  "version": "2.68.0",
+  "version": "0.0.1",
   "builders": {
     "messages": "1.x",
     "store": "0.x",
