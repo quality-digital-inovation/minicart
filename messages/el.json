@@ -19,5 +19,6 @@
   "store/minicart.checkout-failure": "Κάτι πήγε στραβά. Δοκιμάστε ξανά.",
   "store/minicart.go-to-checkout": "Μεταβείτε στην ολοκλήρωση αγοράς",
   "store/minicart.empty-state": "Το καλάθι σας είναι άδειο.",
-  "store/minicart.title": "Καλάθι"
+  "store/minicart.title": "Καλάθι",
+  "store/minicart.open-button": "Open minicart"
 }
