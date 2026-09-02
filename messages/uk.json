@@ -19,5 +19,6 @@
   "store/minicart.checkout-failure": "Щось пішло не так, будь ласка, спробуйте ще раз.",
   "store/minicart.go-to-checkout": "Перейти до оформлення замовлення",
   "store/minicart.empty-state": "Ваш кошик порожній.",
-  "store/minicart.title": "Кошик"
+  "store/minicart.title": "Кошик",
+  "store/minicart.open-button-label": "Open cart"
 }

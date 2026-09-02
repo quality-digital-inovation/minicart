@@ -19,5 +19,6 @@
   "store/minicart.checkout-failure": "Niečo sa nepodarilo. Skúste to znova.",
   "store/minicart.go-to-checkout": "Prejsť k pokladni",
   "store/minicart.empty-state": "Váš košík je prázdny.",
-  "store/minicart.title": "Košík"
+  "store/minicart.title": "Košík",
+  "store/minicart.open-button-label": "Open cart"
 }

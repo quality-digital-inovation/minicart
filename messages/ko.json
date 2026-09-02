@@ -19,5 +19,6 @@
   "store/minicart.checkout-failure": "문제가 발생했습니다. 나중에 다시 시도하십시오.",
   "store/minicart.go-to-checkout": "결제 화면으로 가기",
   "store/minicart.empty-state": "장바구니가 비어 있습니다.",
-  "store/minicart.title": "장바구니"
+  "store/minicart.title": "장바구니",
+  "store/minicart.open-button-label": "Open cart"
 }
