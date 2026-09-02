@@ -19,5 +19,6 @@
   "store/minicart.checkout-failure": "Jotain meni vikaan. Yritä uudelleen.",
   "store/minicart.go-to-checkout": "Siirry kassalle",
   "store/minicart.empty-state": "Ostoskorisi on tyhjä.",
-  "store/minicart.title": "Ostoskori"
+  "store/minicart.title": "Ostoskori",
+  "store/minicart.open-button-label": "Open cart"
 }

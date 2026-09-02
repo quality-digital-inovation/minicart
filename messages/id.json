@@ -19,5 +19,6 @@
   "store/minicart.checkout-failure": "Terjadi kesalahan. Silakan coba lagi.",
   "store/minicart.go-to-checkout": "Lanjut ke checkout",
   "store/minicart.empty-state": "Troli Anda kosong.",
-  "store/minicart.title": "Troli"
+  "store/minicart.title": "Troli",
+  "store/minicart.open-button-label": "Open cart"
 }

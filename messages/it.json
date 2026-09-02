@@ -19,5 +19,6 @@
   "store/minicart.checkout-failure": "Qualcosa è andato storto, si prega di riprovare.",
   "store/minicart.go-to-checkout": "Vai alla cassa",
   "store/minicart.empty-state": "Il tuo carrello è vuoto.",
-  "store/minicart.title": "Carrello"
+  "store/minicart.title": "Carrello",
+  "store/minicart.open-button-label": "Open cart"
 }
