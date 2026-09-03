@@ -19,5 +19,6 @@
   "store/minicart.checkout-failure": "Alguna cosa no ha anat bé. Torneu-ho a provar.",
   "store/minicart.go-to-checkout": "Ves a la caixa",
   "store/minicart.empty-state": "El carretó és buit.",
-  "store/minicart.title": "Carretó"
+  "store/minicart.title": "Carretó",
+  "store/minicart.open-button-label": "Open cart"
 }
