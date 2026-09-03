@@ -11,7 +11,10 @@ import useCheckout from '../modules/checkoutHook'
 export const CSS_HANDLES = [
   'minicartIconContainer',
   'minicartQuantityBadge',
+  'minicartIconButton',
 ] as const
+
+export const OPEN_MINICART_BUTTON_LABEL_ID = 'store/minicart.open-button-label'
 
 interface Props {
   Icon: React.ComponentType
@@ -97,15 +100,23 @@ const MinicartIconButton: React.FC<Props> = props => {
     (itemQuantity > 0 && quantityDisplay === 'not-empty') ||
     quantityDisplay === 'always'
 
-  const openButtonLabel = intl.formatMessage({
-    id: 'store/minicart.open-button-label',
+  const formattedOpenButtonLabel = intl.formatMessage({
+    id: OPEN_MINICART_BUTTON_LABEL_ID,
+    defaultMessage: 'Abrir minicarrinho',
   })
+
+  const openButtonLabel =
+    formattedOpenButtonLabel &&
+    formattedOpenButtonLabel !== OPEN_MINICART_BUTTON_LABEL_ID
+      ? formattedOpenButtonLabel
+      : 'Abrir minicarrinho'
 
   return (
     <button
       type="button"
       aria-label={openButtonLabel}
-      className="bn bg-transparent pa0 pointer flex items-center"
+      aria-expanded={open}
+      className={`${handles.minicartIconButton} bn bg-transparent pa0 pointer flex items-center`}
       onMouseEnter={
         openBehavior === 'hover'
           ? () => dispatch({ type: 'OPEN_MINICART' })
