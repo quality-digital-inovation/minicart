@@ -19,5 +19,6 @@
   "store/minicart.checkout-failure": "Tentative échouée. Veuillez réessayez.",
   "store/minicart.go-to-checkout": "Payer",
   "store/minicart.empty-state": "Votre panier est vide.",
-  "store/minicart.title": "Panier"
+  "store/minicart.title": "Panier",
+  "store/minicart.open-button-label": "Ouvrir le mini panier"
 }

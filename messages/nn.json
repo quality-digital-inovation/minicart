@@ -19,5 +19,6 @@
   "store/minicart.checkout-failure": "Noe gikk galt. Prøv igjen.",
   "store/minicart.go-to-checkout": "Gå til kassen",
   "store/minicart.empty-state": "Handlevognen din er tom.",
-  "store/minicart.title": "Handlevogn"
+  "store/minicart.title": "Handlevogn",
+  "store/minicart.open-button-label": "Opne minihandlekorg"
 }
