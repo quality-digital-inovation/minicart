@@ -19,5 +19,6 @@
   "store/minicart.checkout-failure": "Coś poszło nie tak. Spróbuj ponownie.",
   "store/minicart.go-to-checkout": "Idź do kasy",
   "store/minicart.empty-state": "Twój koszyk jest pusty.",
-  "store/minicart.title": "Koszyk"
+  "store/minicart.title": "Koszyk",
+  "store/minicart.open-button-label": "Open minicart"
 }

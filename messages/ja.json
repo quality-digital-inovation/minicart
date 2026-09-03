@@ -19,5 +19,6 @@
   "store/minicart.checkout-failure": "エラーが発生しました。もう一度やり直してください。",
   "store/minicart.go-to-checkout": "チェックアウトに進む",
   "store/minicart.empty-state": "カートは空です。",
-  "store/minicart.title": "カート"
+  "store/minicart.title": "カート",
+  "store/minicart.open-button-label": "Open minicart"
 }
