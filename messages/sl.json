@@ -19,5 +19,6 @@
   "store/minicart.checkout-failure": "Nekaj je šlo narobe. Poskusite znova.",
   "store/minicart.go-to-checkout": "Pojdite na plačilo",
   "store/minicart.empty-state": "Vaša košarica je prazna.",
-  "store/minicart.title": "Košarica"
+  "store/minicart.title": "Košarica",
+  "store/minicart.open-button-label": "Open minicart"
 }
