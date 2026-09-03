@@ -19,5 +19,6 @@
   "store/minicart.checkout-failure": "Er is iets misgegaan. Probeer het nog eens.",
   "store/minicart.go-to-checkout": "Ga naar de kassa",
   "store/minicart.empty-state": "Uw winkelwagen is leeg.",
-  "store/minicart.title": "Winkelwagen"
+  "store/minicart.title": "Winkelwagen",
+  "store/minicart.open-button-label": "Open minicart"
 }

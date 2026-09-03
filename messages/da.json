@@ -19,5 +19,6 @@
   "store/minicart.checkout-failure": "Der gik noget galt, prøv venligst igen.",
   "store/minicart.go-to-checkout": "Gå til betaling",
   "store/minicart.empty-state": "Din kurv er tom.",
-  "store/minicart.title": "Kurv"
+  "store/minicart.title": "Kurv",
+  "store/minicart.open-button-label": "Open minicart"
 }
