@@ -1,5 +1,5 @@
 import React from 'react'
-import { ButtonWithIcon } from 'vtex.styleguide'
+import { useIntl } from 'react-intl'
 import { useOrderForm } from 'vtex.order-manager/OrderForm'
 import { useCheckoutURL } from 'vtex.checkout-resources/Utils'
 
@@ -57,6 +57,7 @@ const countCartItems = (
 
 const MinicartIconButton: React.FC<Props> = props => {
   const { Icon, itemCountMode, quantityDisplay, variation } = props
+  const intl = useIntl()
   const { orderForm, loading }: OrderFormContext = useOrderForm()
   const { handles } = useMinicartCssHandles()
   const { open, openBehavior, openOnHoverProp } = useMinicartState()
@@ -65,6 +66,9 @@ const MinicartIconButton: React.FC<Props> = props => {
   const itemQuantity = loading ? 0 : quantity
   const { url: checkoutUrl } = useCheckoutURL()
   const goToCheckout = useCheckout()
+  const openMinicartLabel = intl.formatMessage({
+    id: 'store/minicart.open-button',
+  })
 
   const handleClick = () => {
     if (openOnHoverProp) {
@@ -97,28 +101,29 @@ const MinicartIconButton: React.FC<Props> = props => {
     quantityDisplay === 'always'
 
   return (
-    <ButtonWithIcon
-      icon={
-        <span className={`${handles.minicartIconContainer} gray relative`}>
-          <Icon />
-          {showQuantityBadge && (
-            <span
-              style={{ userSelect: 'none' }}
-              className={`${handles.minicartQuantityBadge} ${styles.minicartQuantityBadgeDefault} c-on-emphasis absolute t-mini bg-emphasis br4 w1 h1 pa1 flex justify-center items-center lh-solid`}
-            >
-              {itemQuantity}
-            </span>
-          )}
-        </span>
-      }
-      variation="tertiary"
+    <button
+      type="button"
+      aria-label={openMinicartLabel}
+      className="vtex-button bw1 ba fw5 v-mid relative pa0 lh-solid br2 min-h-regular t-action bg-transparent b--transparent c-action-primary pointer bn"
       onMouseEnter={
         openBehavior === 'hover'
           ? () => dispatch({ type: 'OPEN_MINICART' })
           : undefined
       }
       onClick={handleClick}
-    />
+    >
+      <span className={`${handles.minicartIconContainer} gray relative`}>
+        <Icon />
+        {showQuantityBadge && (
+          <span
+            style={{ userSelect: 'none' }}
+            className={`${handles.minicartQuantityBadge} ${styles.minicartQuantityBadgeDefault} c-on-emphasis absolute t-mini bg-emphasis br4 w1 h1 pa1 flex justify-center items-center lh-solid`}
+          >
+            {itemQuantity}
+          </span>
+        )}
+      </span>
+    </button>
   )
 }
 
