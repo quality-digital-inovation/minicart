@@ -19,5 +19,6 @@
   "store/minicart.checkout-failure": "Etwas ist schief gelaufen, bitte versuchen Sie es später noch einmal.",
   "store/minicart.go-to-checkout": "Zur Kasse gehen",
   "store/minicart.empty-state": "Ihr Einkaufswagen ist leer.",
-  "store/minicart.title": "Einkaufswagen"
+  "store/minicart.title": "Einkaufswagen",
+  "store/minicart.open-button-label": "Mini-Warenkorb öffnen"
 }
