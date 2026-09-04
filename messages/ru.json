@@ -19,5 +19,6 @@
   "store/minicart.checkout-failure": "Что-то пошло не так. Пожалуйста, попробуйте еще раз.",
   "store/minicart.go-to-checkout": "Перейти к оформлению заказа",
   "store/minicart.empty-state": "Ваша корзина пуста.",
-  "store/minicart.title": "Корзина"
+  "store/minicart.title": "Корзина",
+  "store/minicart.open-button": "Open minicart"
 }

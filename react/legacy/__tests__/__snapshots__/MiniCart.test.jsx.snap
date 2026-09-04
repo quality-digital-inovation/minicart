@@ -9,6 +9,7 @@ exports[`<MiniCart /> should match the snapshot in popup mode 1`] = `
       class="flex flex-column"
     >
       <button
+        aria-label="Open minicart"
         variation="tertiary"
       >
         Button test
@@ -127,6 +128,7 @@ exports[`<MiniCart /> should match the snapshot in sidebar mode 1`] = `
         class="flex flex-column"
       >
         <button
+          aria-label="Open minicart"
           variation="tertiary"
         >
           Button test

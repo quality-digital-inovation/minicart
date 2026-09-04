@@ -19,5 +19,6 @@
   "store/minicart.checkout-failure": "Någonting gick fel, vänligen försök igen.",
   "store/minicart.go-to-checkout": "Gå till kassan",
   "store/minicart.empty-state": "Din kundvagn är tom.",
-  "store/minicart.title": "Kundvagn"
+  "store/minicart.title": "Kundvagn",
+  "store/minicart.open-button": "Open minicart"
 }
