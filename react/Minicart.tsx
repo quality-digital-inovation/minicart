@@ -1,6 +1,6 @@
 import React, { FC, useCallback, useState } from 'react'
 import { IconCart } from 'vtex.store-icons'
-import { BackdropMode } from 'vtex.store-drawer'
+import type { BackdropMode } from './components/Drawer/Drawer'
 import { useOrderForm } from 'vtex.order-manager/OrderForm'
 import { ResponsiveValuesTypes } from 'vtex.responsive-values'
 import { useCheckoutURL } from 'vtex.checkout-resources/Utils'
@@ -10,6 +10,7 @@ import { useCssHandles, CssHandlesTypes } from 'vtex.css-handles'
 import PopupMode, {
   CSS_HANDLES as PopupModeCssHandles,
 } from './components/Popup'
+import { CSS_HANDLES as OpenIconContainerCssHandles } from './components/openIconContainer'
 import DrawerMode, {
   CSS_HANDLES as DrawerModeCssHandles,
 } from './components/DrawerMode'
@@ -22,6 +23,7 @@ import { MinicartContextProvider, useMinicartState } from './MinicartContext'
 import useViewCartPixel from './modules/useViewCartPixel'
 
 export const CSS_HANDLES = [
+  ...OpenIconContainerCssHandles,
   ...PopupModeCssHandles,
   ...DrawerModeCssHandles,
   ...MinicartIconButtonCssHandles,
