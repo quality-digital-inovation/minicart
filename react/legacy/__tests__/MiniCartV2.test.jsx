@@ -27,6 +27,22 @@ jest.mock('vtex.order-manager/OrderForm', () => {
   }
 })
 
+jest.mock('../../components/Drawer/Drawer', () => {
+  const React = require('react')
+
+  const Drawer = ({ children, onVisibilityChanged }) => {
+    React.useEffect(() => {
+      if (onVisibilityChanged) {
+        onVisibilityChanged(true)
+      }
+    }, [onVisibilityChanged])
+
+    return <div data-testid="minicart-drawer">{children}</div>
+  }
+
+  return Drawer
+})
+
 const minicartMockContextValue = {
   variation: 'drawer',
   open: true,
