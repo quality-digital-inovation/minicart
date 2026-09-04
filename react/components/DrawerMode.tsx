@@ -1,5 +1,5 @@
 import React, { FC } from 'react'
-import { Drawer, BackdropMode } from 'vtex.store-drawer'
+import Drawer, { BackdropMode } from './Drawer/Drawer'
 import { ResponsiveValuesTypes } from 'vtex.responsive-values'
 import { PixelEventTypes } from 'vtex.pixel-manager'
 
