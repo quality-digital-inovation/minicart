@@ -457,6 +457,7 @@ const MiniCart = ({
         className="flex flex-column"
       >
         <ButtonWithIcon
+          aria-label={intl.formatMessage({ id: 'store/minicart.open-button' })}
           icon={
             <span className={`relative ${iconClasses}`}>
               <IconCart size={iconSize} {...iconsProps} />
